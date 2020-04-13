@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B18FDAF224441AA900FFE775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18FDAF124441AA900FFE775 /* Assets.xcassets */; };
 		B18FDAF824441AA900FFE775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18FDAF724441AA900FFE775 /* main.m */; };
-		B18FDB002444204000FFE775 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18FDAFE2444204000FFE775 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,8 +16,6 @@
 		B18FDAF124441AA900FFE775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B18FDAF624441AA900FFE775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B18FDAF724441AA900FFE775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B18FDAFE2444204000FFE775 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B18FDAFF2444204000FFE775 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +50,6 @@
 			children = (
 				B18FDAF124441AA900FFE775 /* Assets.xcassets */,
 				B18FDAF624441AA900FFE775 /* Info.plist */,
-				B18FDAFF2444204000FFE775 /* SceneDelegate.h */,
-				B18FDAFE2444204000FFE775 /* SceneDelegate.m */,
 				B18FDAF724441AA900FFE775 /* main.m */,
 			);
 			path = iosObjCHelloWorldSingleFileProgramatic;
@@ -129,7 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18FDAF824441AA900FFE775 /* main.m in Sources */,
-				B18FDB002444204000FFE775 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +180,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -238,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

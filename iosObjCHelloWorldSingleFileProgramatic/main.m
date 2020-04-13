@@ -94,7 +94,7 @@ nw.dealloc()
     self.window = [[UIWindow alloc] initWithFrame:rect];
     
     UIView *contView = [[UIView alloc] initWithFrame:rect];
-    contView.backgroundColor = UIColor.blueColor;
+    contView.backgroundColor = UIColor.greenColor;
     
     UIViewController *controller = [[UIViewController alloc] init];
     controller.view = contView;
