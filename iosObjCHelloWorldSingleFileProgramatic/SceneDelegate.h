@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.h
-//  iosObjCHelloWorldSingleFileProgramatic
+//  iosObjCHelloWorld
 //
 //  Created by Brad Barrows on 4/12/20.
 //  Copyright © 2020 bbarrows. All rights reserved.
